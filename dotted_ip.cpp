@@ -2,16 +2,8 @@
 
 using namespace std;
 
-void DEC2BIN(int dec)  // here, DEC2BIN this a function name, it will get call when we will call by this name.
+void DEC2BIN(int dec)  
 {
-        // 128 = 2^7 = 8 bit
-        //  64 = 2^6 = 7 bit
-        //  32 = 2^5 = 6 bit
-        //  16 = 2^4 = 5 bit
-        //  08 = 2^3 = 4 bit
-        //  04 = 2^2 = 3 bit
-        //  02 = 2^1 = 2 bit
-        //  01 = 2^0 = 1 bit
 
   for (int i = 128; i != 0; i=i>>1)
   {
